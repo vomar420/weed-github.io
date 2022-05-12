@@ -1,0 +1,97 @@
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+
+
+}
+
+.bg {
+    background: url("https://wallpapertag.com/wallpaper/full/f/6/c/771413-large-trippy-marijuana-background-1920x1200-macbook.jpg") 
+    no-repeat center center/cover;
+    position: absolute;
+    top: -30;
+    left: -30;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(5px);
+
+}
+.loading-percent{
+    position: absolute;
+    font-size: 70px;
+    color: #fff;
+    margin-left: 50vw;
+    margin-right: 50vw;
+    margin-bottom: 40vh;
+}
+
+.welcome-text {
+    position: absolute top center;
+    font-size: 75px;
+    font: black;
+    font: bolder;
+    outline-color:white;
+    margin-bottom: 80vh;
+    background-color: black;
+    border-radius: 30px
+
+}
+
+.hello-button {
+    position:absolute;
+    background: none;
+    width: 600px;
+    height: 200px;
+    font-size: 100px;
+    color: white;
+    border-color: green;
+    border-width: 10px;
+    border-radius: 50px;
+    margin-right: 150px;
+    box-shadow: 0 0 60px 0 rgb(107, 220, 20),
+                    0 0 60px 0 rgb(20, 220, 67),
+                    0 0 30px 0 rgb(20, 220, 70) inset;
+    margin-right: 50vw;
+    margin-left: 50vw;
+}
+
+.hello-button:hover {
+    background-color:black;
+    color: yellow;
+    cursor: pointer;
+}
+.hello-button:active {
+    background-color: black;
+    color: yellow;
+    box-shadow: 0 0 300px 0 rgb(107, 220, 20),
+    0 0 300px 0 rgb(20, 220, 67),
+    0 0 100px 0 rgb(20, 220, 70) inset;
+
+}
+
+.fpbg {
+    background: url("https://res.cloudinary.com/jerrick/image/upload/c_scale,q_auto/tvj4nizma1q7ef945xfe.jpg") no-repeat center center/cover;
+    position: absolute center/cover;
+    filter:blur(10px)
+}
+
+.sorts {
+    position:absolute;
+    font-size: 30px;
+    margin : -1;
+    opacity: 0.5;
+    top: 0;
+    right: 0;
+}
+.someinfo {
+    position:absolute;
+    top: 0;
+    font-size: 20px;
+}
