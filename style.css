@@ -95,3 +95,7 @@ body {
     top: 0;
     font-size: 20px;
 }
+.hello-button a {
+    color: rgb(230, 230, 230);
+    text-decoration: transperent;
+}
